@@ -2,16 +2,12 @@
   "name": "ec2-userdata",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",  
+  "main": "index.js",
   "scripts": {
     "test": "mocha -R spec"
   },
   "dependencies": {},
-    
-   
-    "author": "Yaniv Kessler", 
-  
-  
+  "author": "Yaniv Kessler",
   "bugs": {
     "url": "https://github.com/kessler/ec2-userdata/issues"
   },
@@ -20,6 +16,9 @@
     "url": "https://github.com/kessler/ec2-userdata"
   },
   "homepage": "https://github.com/kessler/ec2-userdata",
-    
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
 }
