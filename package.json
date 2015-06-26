@@ -6,6 +6,11 @@
   "scripts": {
     "test": "mocha -R spec"
   },
+  "bin": {
+      "ec2-userdata": "index.js",
+      "ec2userdata": "index.js"
+    },
+  "keywords": [ "ec2", "aws", "amazon"],
   "dependencies": {},
   "author": "Yaniv Kessler",
   "bugs": {
